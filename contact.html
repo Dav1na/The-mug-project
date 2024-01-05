@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <div class="header">
-        <img class="header-icon" src="assets/N.png" alt="" />
+    <header class="header">
+      <img class="header-icon" src="/assets/N.png" alt="header-icon" />
+      <div class="white-bg">
         <h1 class="title">The Mug Project</h1>
         <nav>
           <a href="project.html">Project</a>
@@ -24,20 +24,31 @@
         <div class="project-description">
           <h1>Contact me</h1>
           <p>please feel free to contact me :D</p>
+          
           <br />
-        </div>
 
-        <form
-          action="https://formsubmit.co/davinaodeliaong09@gmail.com"
-          method="POST"
-          autocomplete="off"
-        >
-          br <input type="text" placeholder="name:" /><br />
-          <input type="text" placeholder="password:" /><br />
-          <input type="text" placeholder="city:" /><br />
-          <input type="text" placeholder="order:" /><br />
-        </form>
+          <form
+            action="https://formsubmit.co/davinaodeliaong09@gmail.com"
+            method="POST"
+            autocomplete="off"
+          >
+            <input type="text" placeholder="name:" /><br />
+            <input type="text" placeholder="password:" /><br />
+            <input type="text" placeholder="city:" /><br />
+            <input type="text" placeholder="order:" /><br />
+
+            <input type="submit" value="Submit" class="submit" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" class="next" />
+          </form>
+        </div>
       </div>
+      <div class="modal-container">
+        <div class="modal">
+          <img src="" alt="modal" />
+          <h3>Message sent</h3>
+          <p>thankyou for submitting</p>
+        </div>
     </main>
     <footer>
       <div class="main-footer">
