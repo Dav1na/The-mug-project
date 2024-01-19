@@ -7,14 +7,13 @@
   </head>
   <body>
     <header class="header">
-      <img class="header-icon" src="/assets/N.png" alt="header-icon" />
+      <img class="header-icon" src="assets/N.png" alt="header-icon" />
       <div class="white-bg">
         <h1 class="title">The Mug Project</h1>
         <nav>
           <a href="project.html">Project</a>
           <a href="contact.html">Contact</a>
         </nav>
-        <div class="header-2" align="center"></div>
       </div>
     </header>
 
@@ -24,7 +23,7 @@
         <div class="project-description">
           <h1>Contact me</h1>
           <p>please feel free to contact me :D</p>
-          
+
           <br />
 
           <form
@@ -32,14 +31,12 @@
             method="POST"
             autocomplete="off"
           >
-            <input type="text" placeholder="name:" /><br />
-            <input type="text" placeholder="password:" /><br />
-            <input type="text" placeholder="city:" /><br />
-            <input type="text" placeholder="order:" /><br />
+            <input type="text" name="name" placeholder="name:" /><br />
+            <input type="text" name="city" placeholder="city:" /><br />
+            <input type="text" name="email" placeholder="email:" /><br />
+            <input type="text" name="order" placeholder="order:" /><br />
 
             <input type="submit" value="Submit" class="submit" />
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_next" class="next" />
           </form>
         </div>
       </div>
@@ -49,11 +46,22 @@
           <h3>Message sent</h3>
           <p>thankyou for submitting</p>
         </div>
+      </div>
     </main>
     <footer>
+      <div style="position: absolute; width: 100%; left: 89%; top: 76.6%">
+        <img
+          src="assets/rengoku-removebg-preview (1).png"
+          alt="Patrick_Star"
+          width="180px"
+          height="180px"
+          margin-right="140px"
+        />
+              
+      </div>
       <div class="main-footer">
         <p class="info-center">
-          Copyright &copy; 2021. The Mug Project. All rights reserved.
+          Copyright &copy; 2024. The Mug Project. All rights reserved.
         </p>
       </div>
     </footer>
